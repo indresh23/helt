@@ -19,8 +19,8 @@ def my_output(query: str) -> str:
     return response.text
 
 # Streamlit UI
-st.set_page_config(page_title="Sync_pro_bot")
-st.header("Sync_pro_bot")
+st.set_page_config(page_title="your_bot")
+st.header("your_bot")
 
 # Input field
 input = st.text_input("Input", key="input")
